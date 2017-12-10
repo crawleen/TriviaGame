@@ -1,0 +1,79 @@
+body{
+	background-image: url("../images/StateLogoBackground.png");  
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#gameArea{
+	margin-top: 300px;
+    margin-left: 800px;
+}
+h1{
+	font-size: 50px;
+	color:#ffd700;
+	text-align: center;
+}
+#start{
+	background-color: #ffd700;
+	width:100px;
+	height:25px;
+	margin-left:750px;
+}
+#welcome, #timerRow{
+	color:white;
+	text-align: center;
+	font-size: 30px;
+}
+#questionArea{
+	display:none;
+	margin-top: -125px;
+	margin-left:-120px;
+	width:400px;
+}
+#result{
+	display: none;
+	border:solid 3px red;
+	width:900px;
+	height:200px;
+	margin-top: -125px;
+	margin-left:-120px;
+	background-color: #ffd700;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+#coloradoImage{
+	display: inline;
+	float:right;
+	height:200px;
+}
+#resultMsg{
+	display: inline;
+	float:left;
+	padding:20px;
+	font-size: 20px;
+}
+#gameInstructions{
+	display: block;
+	font-size: 20px;
+	padding-bottom: 10px;	
+	margin-top: -50px;
+	margin-left:700px;
+	color:red;
+}
+.answer:hover{
+	background-color: #ffd700;
+	border: solid 1px red;
+}
+.answer:click{
+	background-color: red;
+}
+.answer{
+	font-size: 20px;
+}
+#startOver{
+	padding:5px;
+	display: none;
+	background-color: red;
+	width:100px;
+	height:25px;
+	margin-left:750px;
+}
